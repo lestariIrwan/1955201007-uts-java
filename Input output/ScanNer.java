@@ -13,13 +13,13 @@ import  java.util.Scanner ;
 
         Nama string , nim, prodi, fak;
 
-        Sistem . keluar . println ( " Nama: " );
+        Sistem . out . println ( " Nama: " );
         name = input . nextLine ();
-        Sistem . keluar . println ( " NIM: " );
+        Sistem . out . println ( " NIM: " );
         nim = input . nextLine ();
-        Sistem . keluar . println ( " Prodi: " );
+        Sistem . out . println ( " Prodi: " );
         prodi = input . nextLine ();
-        Sistem . keluar . println ( " Fakultas: " );
+        Sistem . out . println ( " Fakultas: " );
         fak = input . nextLine ();
     }
 
