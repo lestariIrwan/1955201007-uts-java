@@ -17,19 +17,19 @@ import  java.io.InputStreamReader ;
         String nama, nim, prodi, fakultas;
 
 
-        Sistem . keluar . println ( " Masukkan Nama Anda " );
+        Sistem . out . println ( " Masukkan Nama Anda " );
         nama = br . readLine ();
-        Sistem . keluar . println ( " Masukkan NIM " );
+        Sistem . out . println ( " Masukkan NIM " );
         nim = br . readLine ();
-        Sistem . keluar . println ( " Masukkan Prodi Anda " );
+        Sistem . out . println ( " Masukkan Prodi Anda " );
         prodi = br . readLine ();
-        Sistem . keluar . println ( " Masukkan Fakultas Anda " );
+        Sistem . out . println ( " Masukkan Fakultas Anda " );
         fakultas = br . readLine ();
-        Sistem . keluar . println ( " ================================== " );
-        Sistem . keluar . println ( " Nama: " + nama);
-        Sistem . keluar . println ( " NIM: " + nim);
-        Sistem . keluar . println ( " Prodi: " + prodi);
-        Sistem . keluar . println ( " Fakultas: " + fakultas);
+        Sistem . out . println ( " ================================== " );
+        Sistem . out . println ( " Nama: " + nama);
+        Sistem . out . println ( " NIM: " + nim);
+        Sistem . out . println ( " Prodi: " + prodi);
+        Sistem . out . println ( " Fakultas: " + fakultas);
 
     }
 } 
