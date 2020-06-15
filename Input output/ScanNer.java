@@ -1,8 +1,4 @@
-/ *
- * Untuk mengubah header lisensi ini, pilih Header Lisensi di Project Properties.
-* Untuk mengubah file templat ini, pilih Alat | Templat
- * dan buka templat di editor.
- * /
+
 paket  InputOutput ;
 
 import  java.util.Scanner ;
