@@ -10,26 +10,28 @@ import  java.io.InputStreamReader ;
  * /
  Buffer_Reader kelas  publik {
 
-    public  static  void  main ( String [] args )  thorws IOException {
-
-        BufferedReader br =  new  BufferedReader ( new  InputStreamReader ( Sistem . Di));
-
+    public class Buffer_Reader{
+    
+    public static void main(String[] args) throws IOException {
+        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
         String nama, nim, prodi, fakultas;
-
-
-        Sistem . out . println ( " Masukkan Nama Anda " );
-        nama = br . readLine ();
-        Sistem . out . println ( " Masukkan NIM " );
-        nim = br . readLine ();
-        Sistem . out . println ( " Masukkan Prodi Anda " );
-        prodi = br . readLine ();
-        Sistem . out . println ( " Masukkan Fakultas Anda " );
-        fakultas = br . readLine ();
-        Sistem . out . println ( " ================================== " );
-        Sistem . out . println ( " Nama: " + nama);
-        Sistem . out . println ( " NIM: " + nim);
-        Sistem . out . println ( " Prodi: " + prodi);
-        Sistem . out . println ( " Fakultas: " + fakultas);
-
+        
+        
+        System.out.println("Masukkan Nama Anda");
+        nama = br.readLine();
+        System.out.println("Masukkan NIM ");
+        nim = br.readLine();
+        System.out.println("Masukkan Prodi Anda");
+        prodi = br.readLine();
+        System.out.println("Masukkan Fakultas Anda");
+        fakultas = br.readLine();
+        System.out.println("====================================");
+        System.out.println("Nama        : "+nama);
+        System.out.println("NIM         : "+nim);
+        System.out.println("Prodi       : "+prodi);
+        System.out.println("Fakultas    : "+fakultas);
+        
     }
-} 
+}
