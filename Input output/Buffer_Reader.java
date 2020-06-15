@@ -10,9 +10,9 @@ import  java.io.InputStreamReader ;
  * /
  Buffer_Reader kelas  publik {
 
-    public  static  void  main ( String [] args ) melempar  IOException {
+    public  static  void  main ( String [] args )  thorws IOException {
 
-        BufferedReader br =  baru  BufferedReader ( baru  InputStreamReader ( Sistem . Di));
+        BufferedReader br =  new  BufferedReader ( new  InputStreamReader ( Sistem . Di));
 
         String nama, nim, prodi, fakultas;
 
